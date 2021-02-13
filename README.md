@@ -1,6 +1,6 @@
 # R.I.P
 
-![기톰프뮤직](https://user-images.githubusercontent.com/70262871/103122910-9fe4b680-46c5-11eb-8319-5f09f694ea7e.jpg)
+![rip](https://user-images.githubusercontent.com/70262871/103122910-9fe4b680-46c5-11eb-8319-5f09f694ea7e.jpg)
 
 - **Team_name** : R.I.P
 - **Team_member** : 김규빈, 김영재 , 김원희 , 이현주 , 박채훈, 한준희
