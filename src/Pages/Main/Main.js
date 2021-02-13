@@ -4,6 +4,7 @@ import MainCategory from "./MainCategory";
 import Frip from "./Frip";
 import OptionSlide from "./OptionSlide";
 import MainTitle from "./MainTitle";
+import MainRealTime from "./MainRealTime";
 import banner1 from "./images/Web_banner1.jpeg";
 import banner2 from "./images/Web_banner2.jpeg";
 import banner3 from "./images/Web_banner3.jpeg";
@@ -38,6 +39,8 @@ function Main() {
         <MainTitle h2="기획전" span="전체보기" />
         <OptionSlide img1={poster1} img2={poster2} img3={poster3} count="2" />
       </Center>
+
+      <MainRealTime />
     </MainContainer>
   );
 }
