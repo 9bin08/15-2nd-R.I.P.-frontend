@@ -1,12 +1,5 @@
 # R.I.P
 
-<<<<<<< HEAD
-![rip](https://user-images.githubusercontent.com/70262871/103122910-9fe4b680-46c5-11eb-8319-5f09f694ea7e.jpg)
-=======
-![logo](https://user-images.githubusercontent.com/62928948/104840077-8f141300-5908-11eb-8e86-f41394226746.png)
-
->>>>>>> ce1b5c182514209aa478ea3ef8dfeb43eb43ad90
-
 - **Team_name** : R.I.P
 - **Team_member** : 김규빈, 김영재 , 김원희 , 이현주 , 박채훈, 한준희
 - **Project_development \_period** : 2020년 12월 28일 ~ 2021년 1월 8일
@@ -42,8 +35,6 @@
 
 <img width="1627" alt="스크린샷 2021-01-08 오후 6 53 29" src="https://user-images.githubusercontent.com/62928948/104840124-ce426400-5908-11eb-9ed6-04c8e7bb11d6.png">
 <img width="1432" alt="스크린샷 2021-01-08 오후 6 53 43" src="https://user-images.githubusercontent.com/62928948/104840143-ec0fc900-5908-11eb-9a62-018b1fdf02d9.png">
-
-
 
 ---
 
@@ -86,13 +77,11 @@ _-_ **MainPage onClick**
 - 메인 페이지 상품 쿼리스트링 이용하여 정렬(인기순 , 가격 낮은순)
 - 메인 페이지 상품 API 통신
 
-
 [상품 디테일 페이지]
 
 - 상품 디테일 페이지 레이아웃
 - 상품 디테일 페이지 Api 통신
 - 카카오맵 api를 이용하여 지도에 마커 표시(String으로 주소 받아오면 위도,경도 변환하여 마커)
-
 
 [상품 문의하기 페이지]
 
@@ -120,7 +109,6 @@ _-_ **MainPage onClick**
 - 상품 옵션 선택시 결제하기 페이지로 넘어가 이용자에게 최종 컨펌을 받음
 - 결제하기 페이지는 상품 이름 , 상품 정보, 선택한 옵션, 가격 등이 표시되고 체크박스로 컨펌
 
-
 ---
 
 2. 김영재
@@ -130,6 +118,7 @@ _-_ **MainPage onClick**
 - Stack : React / Styled-Component / Router
 - Works :
 - 프로젝트 후기 블로그 :
+
 1.
 2.
 3.
