@@ -1,6 +1,11 @@
 # R.I.P
 
+<<<<<<< HEAD
 ![rip](https://user-images.githubusercontent.com/70262871/103122910-9fe4b680-46c5-11eb-8319-5f09f694ea7e.jpg)
+=======
+![logo](https://user-images.githubusercontent.com/62928948/104840077-8f141300-5908-11eb-8e86-f41394226746.png)
+
+>>>>>>> ce1b5c182514209aa478ea3ef8dfeb43eb43ad90
 
 - **Team_name** : R.I.P
 - **Team_member** : 김규빈, 김영재 , 김원희 , 이현주 , 박채훈, 한준희
@@ -35,7 +40,10 @@
 - ESLint , Prettier
 - trello
 
-![image](https://user-images.githubusercontent.com/70262871/103123428-ab38e180-46c7-11eb-99a9-04d136db789e.png)
+<img width="1627" alt="스크린샷 2021-01-08 오후 6 53 29" src="https://user-images.githubusercontent.com/62928948/104840124-ce426400-5908-11eb-9ed6-04c8e7bb11d6.png">
+<img width="1432" alt="스크린샷 2021-01-08 오후 6 53 43" src="https://user-images.githubusercontent.com/62928948/104840143-ec0fc900-5908-11eb-9a62-018b1fdf02d9.png">
+
+
 
 ---
 
@@ -58,7 +66,8 @@
 
 _-_ **MainPage onClick**
 
-[![image](https://user-images.githubusercontent.com/70262871/103147016-0932fb00-4794-11eb-9150-98523ed01591.png)](https://youtu.be/dGxxuie2M10)
+[<img width="1260" alt="스크린샷 2021-01-10 오후 4 30 58" src="https://user-images.githubusercontent.com/62928948/104841125-a43d7180-5909-11eb-8168-f8ebd30bdafc.png">
+](https://www.youtube.com/watch?v=n6bdeVMLE1g)
 
 ## Member Info
 
@@ -67,29 +76,50 @@ _-_ **MainPage onClick**
 - Role : Team Member
 - Position : Front-end
 - Stack : React / Styled-Component / Router
-- Works : 메인 페이지 / 상품 디테일 페이지 / 상품 문의하기 게시판 / 상품 결제 프로세스
+- Works : 메인 페이지 / 상품 디테일 페이지 / 상품 문의하기 게시판 / 상품 결제 프로세스 / footer
+- 프로젝트 후기 블로그 : [후기](https://velog.io/@9bin08/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-R.I.P-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
 
-[로그인 & 회원가입]
+[메인 페이지]
 
-- 회원가입 / 로그인 폼 구현 및 기능구현 (Vaildation 및 로그인 인증/인가 통신)
-- 로그인 성공시 TOKEN가져와 로컬스토리지에 저장
-- 모달창 형식으로 팝업, 로그인 후 View 수정(로그아웃 버튼, 닉네임 출력)
+- 메인 페이지 레이아웃
+- 메인 페이지 이벤트 배너 캐로셀 슬라이더(라이브러리 없이, Styled-component로 구현)
+- 메인 페이지 상품 쿼리스트링 이용하여 정렬(인기순 , 가격 낮은순)
+- 메인 페이지 상품 API 통신
 
-[앨범 게시판]
 
-- 앨범 카테고리(fetch를 통해 앨범 데이터 가져오기)
-- 앨범 리스트 페이지 네이션(componentDidUpdate를 통해 match.params를 비교하여 업데이트 후 출력)
-- 앨범리스트 필터링 기능(년도, 장르, 내용, 검색키워드를 쿼리스트링으로 요청 후 매칭되는 데이터 출력)
-- 앨범 리스트 디테일 페이지(componentDidUpdate를 통해 해당되는 id 데이터를 조회 후 출력)
-- 앨범 디테일 페이지 다음 글,이전 글(match.params를 통해 id+1 ,id -1 데이터를 가져오는 방식)
+[상품 디테일 페이지]
 
-[커뮤니티 게시판]
+- 상품 디테일 페이지 레이아웃
+- 상품 디테일 페이지 Api 통신
+- 카카오맵 api를 이용하여 지도에 마커 표시(String으로 주소 받아오면 위도,경도 변환하여 마커)
 
-- 커뮤니티 게시판 정보 통신 후 가져오기
-- 커뮤니티 게시판 글쓰기 기능(TOKEN 정보를 가져와 인가를 통해 게시물 판별)
-- 커뮤니티 게시판 글쓰기(제목, 내용, 닉네임, 조회수, 날짜)
-- 게시물 디테일 화면 구현
-- 게시물 다음글 이전글 탭 구현
+
+[상품 문의하기 페이지]
+
+- 문의하기 페이지 api 통신
+- 문의하기 페이지 레이아웃
+- 문의하기 글쓰기 기능
+- 문의하기 글쓰기 비밀글 기능 추가
+- 문의에 호스트는 답글을 달아 줄 수 있음
+
+[상품 후기 페이지]
+
+- 후기 페이지 api 통신
+- 후기 페이지 레이아웃
+- 후기 형식은 내용과 사진으로 게시물 형태로 작성
+- 사진은 formdata 형식으로 전송
+- 사진 선택시 미리보기 기능
+- 모든 데이터는 앱과 공유가능(웹에서 후기 등록시 어플 후기 페이지 최상단에 표시)
+- 작성한 후기는 피드페이지로 연동하여 최상단에 표시
+
+[상품 결제하기 페이지]
+
+- 상품 옵션 선택 페이지 레이아웃
+- 상품의 옵션값은 api 통신으로 이루어짐
+- 상품 옵션 선택 validation
+- 상품 옵션 선택시 결제하기 페이지로 넘어가 이용자에게 최종 컨펌을 받음
+- 결제하기 페이지는 상품 이름 , 상품 정보, 선택한 옵션, 가격 등이 표시되고 체크박스로 컨펌
+
 
 ---
 
@@ -99,7 +129,7 @@ _-_ **MainPage onClick**
 - Position : Front-end
 - Stack : React / Styled-Component / Router
 - Works :
-
+- 프로젝트 후기 블로그 :
 1.
 2.
 3.
