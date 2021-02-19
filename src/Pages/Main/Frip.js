@@ -10,7 +10,7 @@ function Frip(props) {
 
   useEffect(() => {
     getFripData();
-  }, [setMainFripData]);
+  }, [mainFripData]);
 
   const getFripData = async () => {
     const result = await axios(

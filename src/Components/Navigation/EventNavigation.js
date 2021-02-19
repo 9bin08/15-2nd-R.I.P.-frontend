@@ -1,40 +1,31 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-class EventNavigation extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: [],
-    };
-  }
+function EventNavigation() {
+  const [data, setData] = useState([]);
 
-  render() {
-    return (
-      <div>
-        <EventNavBar>
-          <div className="subNaviContents">
-            <Link to={{ pathname: "/Activity" }}>
-              <span className="subNaviTitle">액티비티</span>
-            </Link>
-            <span className="subNaviTitle">배움</span>
-            <span className="subNaviTitle">건강 뷰티</span>
-            <span className="subNaviTitle">모임</span>
-            <div className="subNaviSubTitle">
-              {SUB_NAVI.map((element, index) => {
-                return (
-                  <span className="subNaviElement" key={index}>
-                    {element}
-                  </span>
-                );
-              })}
-            </div>
-          </div>
-        </EventNavBar>
+  return (
+    <EventNavBar>
+      <div className="subNaviContents">
+        <Link to={{ pathname: "/Activity" }}>
+          <span className="subNaviTitle">액티비티</span>
+        </Link>
+        <span className="subNaviTitle">배움</span>
+        <span className="subNaviTitle">건강 뷰티</span>
+        <span className="subNaviTitle">모임</span>
+        <div className="subNaviSubTitle">
+          {SUB_NAVI.map((element, index) => {
+            return (
+              <span className="subNaviElement" key={index}>
+                {element}
+              </span>
+            );
+          })}
+        </div>
       </div>
-    );
-  }
+    </EventNavBar>
+  );
 }
 
 const SUB_NAVI = [

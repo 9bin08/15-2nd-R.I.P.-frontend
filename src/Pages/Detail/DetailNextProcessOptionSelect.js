@@ -16,7 +16,7 @@ function DetailNextProcessOptionSelect({
 
   useEffect(() => {
     getLoadDetailData();
-  }, [setSelectOption]);
+  }, [selectOption]);
 
   const getLoadDetailData = async () => {
     const result = await axios.get(

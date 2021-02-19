@@ -10,7 +10,6 @@ function SignUp() {
   const kakaoLogin = () => {
     Kakao.Auth.login({
       success: function (authObj) {
-        console.log(authObj);
         fetch(KAKAO_SIGNUP, {
           method: "POST",
           body: JSON.stringify({
@@ -19,7 +18,6 @@ function SignUp() {
         })
           .then(res => res.json())
           .then(res => {
-            console.log(res);
             localStorage.setItem("kakao_access_token", res.ACCESS_TOKEN);
             if (res.ACCESS_TOKEN) {
               alert("KAKAO LOGIN SUCCESS");

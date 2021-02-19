@@ -16,7 +16,7 @@ function Detail(props) {
 
   useEffect(() => {
     getLoadDetailData();
-  }, [setDetailFripData]);
+  }, [detailFripData]);
 
   const getLoadDetailData = async () => {
     const result = await axios.get(
