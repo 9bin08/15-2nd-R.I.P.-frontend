@@ -23,7 +23,7 @@ function Frip(props) {
   return (
     <Rip>
       {!isLoading &&
-        mainFripData.map((item, index) => (
+        mainFripData.map(item => (
           <Link key={item.id} to={{ pathname: `detail/${item.id}` }}>
             <FripContainer>
               <FripImgarea>
