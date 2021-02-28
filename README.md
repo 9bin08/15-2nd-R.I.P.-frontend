@@ -1,5 +1,5 @@
 # R.I.P
-
+![logo](https://user-images.githubusercontent.com/62928948/104840077-8f141300-5908-11eb-8e86-f41394226746.png)
 - **Team_name** : R.I.P
 - **Team_member** : 김규빈, 김영재 , 김원희 , 이현주
 - **Project_development \_period** : 2020년 12월 28일 ~ 2021년 1월 8일
