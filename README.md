@@ -3,7 +3,7 @@
 - **Team_name** : R.I.P
 - **Team_member** : 김규빈, 김영재 , 김원희 , 이현주
 - **Project_development \_period** : 2020년 12월 28일 ~ 2021년 1월 8일
-- **Backend_github** :
+- **Backend_github** : [R.I.P BackEnd](https://github.com/wecode-bootcamp-korea/15-2nd-R.I.P.-backend)
 
 ## Project_info
 
